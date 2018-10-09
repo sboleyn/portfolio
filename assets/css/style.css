@@ -1,0 +1,187 @@
+/* CSS Document */
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	/* background: url(../images/hello_background3.jpg); */
+	background: url(../images/blueHouse.jpg);
+	/* background-size: 100% auto; */
+	/* background-size: cover; */
+}
+
+.navbar{
+	/* background-color: rgba(236,151,193,0.6);  */
+	/* background-color: #007f7f80; */
+	background-color: rgba(8, 9, 10, 0.397);
+    border-style: outset;
+    border-width: 0px 0px 5px 0px;
+    border-radius: 5px;
+    border-color: rgba(8, 9, 10, 0.274);
+	padding: 0px;
+	color: #f4faff;
+}
+
+.navbar-header{
+	/* background-color: rgb(236,151,193); */
+	/* background-color: #007f7fd0; */
+	rgba(8, 9, 10, 0.397);
+	height: 100%;
+	max-width: 100%;
+}
+
+i{
+	font-size: 50px;
+}
+
+i.fas h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h1.mt-3{
+	font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+	color: #F4FAFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+}
+
+.nav-item{
+	display: inline;
+    font-size: 20px;
+}
+
+.mainContent{
+	/* background-color: rgba(8,9,10, 0.8); */
+	/* background-color: rgba(204, 255, 0, 0.349); */
+	/* background-color: #007f7f80; */
+	background-color: rgba(8, 9, 10, 0.397);
+	color: #f4faff;
+}
+
+.blueHighlite{
+    background-color: rgb(124,198,254);
+    background-color: rgba(124,198,254,0.95);
+}
+
+.pinkHighlite{
+    background-color: rgb(236,151,193);
+    background-color: rgba(236,151,193,0.8);
+}
+
+hr{
+    width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+    height: 5px;
+    background-color: #f4faff;
+}
+
+#introLineText{
+    font-family: 'Asap', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    font-style: imageddditalic;
+}
+
+
+label {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.btn-primary{
+	font-family: 'Asap', sans-serif;
+	border-color: rgb(124,198,254);	
+	color: rgb(8,9,10);
+	background-color: #f4faff;
+}
+
+.btn-primary:hover{
+	background-color: rgb(124,198,254);
+}
+
+span.round{
+	border-radius: 3px;
+	padding: 5px;
+	color: rgb(8,9,10);
+	font-weight: bold;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(8, 9, 10, 0.397);
+	color: #F4FAFF;
+	border-width: 5px 0px 0px 0px;
+	border-color: rgb(124,198,254);	
+	border-style: solid;
+}
+
+
+.profileImg{
+	width: 145px;
+	margin-bottom: 5px;
+}
+
+.myWorkImg{
+    width: 293px;
+    height: 195px;
+}
+
+/*
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	width: 100%;
+	background-color: rgb(236,151,193);
+	background-color: rgba(236,151,193,0.7);
+}
+*/
+.imgBannerBlock {
+	display: inline-block;
+	position: relative;
+}
+
+.imgBanner {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	/* background-color: rgba(236,151,193,0.6); */
+	background-color: #3366cc;
+	padding: 10px 0px;
+	color: rgb(8,9,10);
+	font-weight: bold;
+}
+
+.mainContent{
+	font-family: 'PT Sans', sans-serif;
+	margin-bottom: 25px;
+}
+
+.mainFont{
+	font-size: 20px;
+}
+
+.test{
+	max-width: 765px;
+}
